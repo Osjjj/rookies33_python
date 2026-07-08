@@ -1,0 +1,5 @@
+name,age,score,passed,passwd
+cool,20,90.0,True,True
+hot,30,100.0,True,True
+king,25,80.0,True,True
+oreo,50,50.0,False,False
