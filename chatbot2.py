@@ -128,7 +128,7 @@ if prompt := st.chat_input('메시지를 입력하세요!'):
                 """
         
    
-           # st.session_state.messages를 직접 수정하지 않고 복사본 뒤에 지시사항을 붙입니다.
+        # st.session_state.messages를 직접 수정하지 않고 복사본 뒤에 지시사항을 붙입니다.
         temp_input = st.session_state.messages[:-1] + [
             {
                 "role": "user", 
